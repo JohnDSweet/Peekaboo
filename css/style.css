@@ -1,0 +1,66 @@
+#showing {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+}
+
+.fadeable {
+  display: none;
+}
+
+.fade2 {
+  display: none;
+}
+
+.click2{
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click2:hover {
+  text-decoration: underline;
+}
+
+.fade3 {
+  display: none;
+}
+
+.click3{
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click3:hover {
+  text-decoration: underline;
+}
+
+.fade4 {
+  display: none;
+}
+
+.click4{
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.click4:hover {
+  text-decoration: underline;
+}
+
+.blackBackground {
+  background-color: black;
+  color: white;
+}
+
+.highlight {
+  background-color: yellow;
+  margin: 40px;
+  border: 20px solid red;
+}
