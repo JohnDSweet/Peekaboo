@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Peekaboo</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Peekaboo</h1>
+
+      <div id="highlight"><p>This is a very special page. It will tell you what type of HTML element you clicked on.</p></div>
+
+      <div id="not-showing">
+        <p>Let's play peek-a-boo. <span class="clickable">Click here</span> to see the surprise!</p>
+      </div>
+
+      <div id="showing">
+        <p>Look at this cute walrus!<span class="clickable">Click here</span> to mae the walrus disappear.</p>
+        <img src="img/walrus.jpg">
+      </div>
+
+    </div>
+
+    <div>
+      <h2>Find the secret images... </h2>
+      <p><span class="hoverable">Don't hover here</span><span class="fadeable"> or you'll be able to <span class="click2">click here</span> and <span class="click3">here</span> and <span class="click4">here.</span></span></p>
+      <div class="fade2">
+      <img src="img/seal.jpeg">
+      </div>
+
+      <div class="fade3">
+      <img src="img/walrus2.jpeg">
+      </div>
+
+      <div class="fade4">
+      <img src="img/walrus2.jpg">
+      </div>
+    </div>
+
+    <div>
+      <h2>Change the background color:</h2>
+      <button class="btn" id="black">Switch to black!</button>
+      <button class="btn" id="white">Switch to white!</button>
+    </div>
+
+
+  </body>
+</html>
